@@ -48,7 +48,7 @@ def main():
 
     # Predicting button
     if st.sidebar.button('Predict'):
-        # Prepare user inputs, ensuring all categories are strings
+        # user inputs ensuring all categories are strings
         user_inputs = {
             'Car_model': str(car_model),
             'Year_of_car_manufacture': year_of_manufacture,
